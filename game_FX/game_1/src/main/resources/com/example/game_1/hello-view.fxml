@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="404.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game_1.HelloController">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="343.0" prefHeight="60.0" prefWidth="495.0" style="-fx-border-color: #000000;">
+         <children>
+            <Button fx:id="start" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="начать игру" />
+            <Button fx:id="Stop_game" layoutX="107.0" layoutY="20.0" mnemonicParsing="false" onAction="#Stop_game_action" text="остановить игру" />
+            <Button fx:id="Shoot" layoutX="372.0" layoutY="20.0" mnemonicParsing="false" onAction="#Shoot_action" text="выстрел" />
+            <Button fx:id="pause_button" layoutX="222.0" layoutY="20.0" mnemonicParsing="false" onAction="#Pause_game_action" text="пауза" />
+            <Button fx:id="continue_button" layoutX="277.0" layoutY="20.0" mnemonicParsing="false" onAction="#continue_game_action" text="продолжить" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1.0" layoutY="6.0" prefHeight="334.0" prefWidth="495.0" style="-fx-border-color: #000000;">
+         <children>
+            <AnchorPane layoutY="1.0" prefHeight="334.0" prefWidth="83.0" style="-fx-background-color: #FF4000;" />
+            <Line endX="-5.8" endY="255.0" layoutX="370.0" layoutY="82.0" startX="-5.8" startY="-83.0" />
+            <Line endX="-5.8" endY="255.0" layoutX="461.0" layoutY="84.0" startX="-5.8" startY="-83.0" />
+            <Circle fx:id="Big_circle" fill="DODGERBLUE" layoutX="365.0" layoutY="162.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Little_circle" fill="DODGERBLUE" layoutX="456.0" layoutY="162.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Line fx:id="Arrow" layoutX="125.0" layoutY="162.0" startX="-28.999984741210938" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="495.0" layoutY="6.0" prefHeight="398.0" prefWidth="193.0" style="-fx-border-color: #000000;">
+         <children>
+            <Label fx:id="Shoots_label" layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="150.0" style="-fx-border-color: #000000;">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="Hits_label" layoutX="14.0" layoutY="78.0" prefHeight="38.0" prefWidth="150.0" style="-fx-border-color: #000000;">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
