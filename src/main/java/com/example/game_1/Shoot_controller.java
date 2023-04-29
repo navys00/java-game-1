@@ -9,11 +9,8 @@ import javafx.scene.shape.Line;
 
 public class Shoot_controller {
 
-//        @FXML
-//    public Label Shoots_label;
-//
-//    @FXML
-//    public Label Hits_label;
+    @FXML
+    public Label Hits_label;
     private int MaxW=495;
     private boolean run = false;
     private boolean pause = false;
@@ -79,11 +76,14 @@ public class Shoot_controller {
                             hits++;
                             Stop();
 
+
+
                         }
 
                         else if((Quad(Little_circ.getLayoutX()-arr.getLayoutX())+Quad(Little_circ.getLayoutY()-arr.getLayoutY()))<=Quad(25)){
                             hits+=2;
                             Stop();
+
 
                         }
                         else if(new_x+1>MaxW){

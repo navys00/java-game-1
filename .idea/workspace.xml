@@ -4,16 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08de9afd-4cb3-43ac-8b34-839cafedd084" name="Changes" comment="" />
+    <list default="true" id="62057b1e-b5c0-4e61-9619-2758ff83a6dd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="2MdZGxDO887nF9z5R8met3nmP4v" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MbpspeP6XG8rgNYmroGdZGtyUl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/вуз - 3 курс/разработка сетевых приложений на java/java-game-1",
+    "last_opened_file_path": "D:/вуз - 3 курс/разработка сетевых приложений на java/danillab2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -34,15 +48,21 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08de9afd-4cb3-43ac-8b34-839cafedd084" name="Changes" comment="" />
-      <created>1678099327582</created>
+      <changelist id="62057b1e-b5c0-4e61-9619-2758ff83a6dd" name="Changes" comment="" />
+      <created>1678046347607</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678099327582</updated>
-      <workItem from="1678099328764" duration="8000" />
-      <workItem from="1678210118520" duration="67000" />
-      <workItem from="1678268510832" duration="19000" />
-      <workItem from="1678296179336" duration="1305000" />
+      <updated>1678046347607</updated>
+      <workItem from="1678046348745" duration="6841000" />
+      <workItem from="1678099371991" duration="9333000" />
+      <workItem from="1678121252919" duration="9106000" />
+      <workItem from="1678210187188" duration="6747000" />
+      <workItem from="1678268539508" duration="3629000" />
+      <workItem from="1678295563283" duration="4185000" />
+      <workItem from="1678462370792" duration="8896000" />
+      <workItem from="1681732339652" duration="23000" />
+      <workItem from="1681926624222" duration="2180000" />
+      <workItem from="1682164314021" duration="607000" />
     </task>
     <servers />
   </component>

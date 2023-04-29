@@ -44,6 +44,10 @@ public class HelloController {
     protected void Stop_game_action(){targetController.Stop();
 
         Arrow_controller.Stop();
+        Arrow_controller.shoots=0;
+        Arrow_controller.hits=0;
+        Shoots_label.setText("Кол-во выстрелов: "+String.valueOf(Arrow_controller.shoots));
+        Hits_label.setText("Кол-во попаданий: "+String.valueOf(Arrow_controller.hits));
     }
 
     @FXML
